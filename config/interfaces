@@ -2,3 +2,4 @@ auto lo
 
 iface lo inet loopback
 iface eth0 inet dhcp
+iface wlan0 inet dhcp
