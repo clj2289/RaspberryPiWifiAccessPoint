@@ -1,5 +1,6 @@
 auto lo
-
+auto wlan0
+iface default inet manual
 iface lo inet loopback
 iface eth0 inet dhcp
 iface wlan0 inet static
