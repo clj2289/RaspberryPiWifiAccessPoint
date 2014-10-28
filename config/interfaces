@@ -3,7 +3,7 @@ auto lo
 iface lo inet loopback
 iface eth0 inet dhcp
 
-iface default inet dhcp
+iface default inet manual
 iface wlan0 inet static
   address 192.168.0.2
   netmask 255.255.255.0
