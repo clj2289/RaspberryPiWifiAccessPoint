@@ -1,6 +1,5 @@
 sudo apt-get update
 sudo apt-get install hostapd udhcpd
-wget http://www.daveconroy.com/wp3/wp-content/uploads/2013/07/hostapd.zip
 unzip hostapd.zip 
 sudo mv /usr/sbin/hostapd /usr/sbin/hostapd.bak
 sudo mv hostapd /usr/sbin/hostapd.edimax 
@@ -15,3 +14,4 @@ sudo RaspberryPiWifiAccessPoint/copy_files.sh
 reboot
 
 sudo apt-get install python-pip
+sudo pip install colorama
