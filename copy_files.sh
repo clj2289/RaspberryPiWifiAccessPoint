@@ -1,4 +1,4 @@
-cd RaspberryPiWifiAccessPoint
+cd config
 cp hostapd /etc/default/hostapd
 cp hostapd.conf /etc/hostapd/hostapd.conf
 cp interfaces /etc/network/interfaces
