@@ -13,3 +13,5 @@ git clone https://github.com/clj2289/RaspberryPiWifiAccessPoint.git
 sudo RaspberryPiWifiAccessPoint/copy_files.sh
 
 reboot
+
+sudo apt-get install python-pip
